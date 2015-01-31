@@ -27,12 +27,12 @@ As this is a fork of an existing package, you need to do two things:
 2) Run one the following commands / actions, the version `dev-cdn` is key!
 
 ```
-php composer.phar require antipodos/yii2-chartjs-widget "dev-cdn"
+php composer.phar require 2amigos/yii2-chartjs-widget "dev-cdn"
 ```
 or add
 
 ```json
-"antipodos/yii2-chartjs-widget" : "dev-cdn"
+"2amigos/yii2-chartjs-widget" : "dev-cdn"
 ```
 
 to the require section of your application's `composer.json` file.
