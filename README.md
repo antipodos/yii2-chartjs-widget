@@ -3,6 +3,11 @@ ChartJs Widget
 
 Renders a [ChartJs plugin](http://www.chartjs.org/docs/) widget
 
+Credits
+-------
+
+This has been forked from https://github.com/2amigos/yii2-chartjs-widget to replace the old, local 0.2 version of chart.js with the 1.0.1 CDN version of it.
+
 Installation
 ------------
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -10,12 +15,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require 2amigos/yii2-chartjs-widget "*"
+php composer.phar require antipodos/yii2-chartjs-widget "*"
 ```
 or add
 
 ```json
-"2amigos/yii2-chartjs-widget" : "*"
+"antipodos/yii2-chartjs-widget" : "*"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -57,7 +62,3 @@ use dosamigos\chartjs\Chart;
 ```
 ChartJs has lots of configuration options. For further information, please check the
 [ChartJs plugin](http://www.chartjs.org/docs/) website.
-
-> [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)  
-<i>Web development has never been so fun!</i>  
-[www.2amigos.us](http://www.2amigos.us)

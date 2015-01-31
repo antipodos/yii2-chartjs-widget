@@ -1,8 +1,8 @@
 {
-    "name": "2amigos/yii2-chartjs-widget",
+    "name": "antipodos/yii2-chartjs-widget",
     "description": "ChartJs widget for Yii2.",
     "keywords": ["yii", "extension", "widget", "chartjs"],
-    "homepage": "https://github.com/2amigos/yii2-chartjs-widget",
+    "homepage": "https://github.com/antipodos/yii2-chartjs-widget",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,6 +10,11 @@
             "name": "Antonio Ramirez",
             "email": "amigo.cobos@gmail.com",
             "homepage" : "http://2amigos.us"
+        },
+		{
+            "name": "Michael Niessl",
+            "email": "minie@antipoden.at",
+            "homepage" : "http://antipoden.at"
         }
     ],
     "minimum-stability": "dev",
@@ -18,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\chartjs\\": ""
+            "antipodos\\chartjs\\": ""
         }
     }
 }

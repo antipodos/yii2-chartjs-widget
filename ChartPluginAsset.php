@@ -18,10 +18,10 @@ use yii\web\AssetBundle;
  */
 class ChartPluginAsset extends AssetBundle
 {
-	public $sourcePath = '@vendor/2amigos/yii2-chartjs-widget/assets';
+	const CHARTJS = 'http://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/';
 
 	public function init()
 	{
-		$this->js = YII_DEBUG ? ['js/Chart.js'] : ['js/Chart.min.js'];
+		$this->js = YII_DEBUG ? [self::CHARTJS . 'Chart.js'] : [self::CHARTJS . 'Chart.min.js'];
 	}
 }
