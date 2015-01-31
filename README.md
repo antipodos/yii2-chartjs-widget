@@ -11,16 +11,28 @@ This has been forked from https://github.com/2amigos/yii2-chartjs-widget to repl
 Installation
 ------------
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+As this is a fork of an existing package, you need to do two things:
 
-Either run
+1) add the following to your project's composer.json
+
+```json
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/antipodos/yii2-chartjs-widget"
+	}
+],
+```
+
+2) Run one the following commands / actions, the version `dev-cdn` is key!
 
 ```
-php composer.phar require antipodos/yii2-chartjs-widget "*"
+php composer.phar require antipodos/yii2-chartjs-widget "dev-cdn"
 ```
 or add
 
 ```json
-"antipodos/yii2-chartjs-widget" : "*"
+"antipodos/yii2-chartjs-widget" : "dev-cdn"
 ```
 
 to the require section of your application's `composer.json` file.
