@@ -1,8 +1,8 @@
 {
-    "name": "antipodos/yii2-chartjs-widget",
+    "name": "2amigos/yii2-chartjs-widget",
     "description": "ChartJs widget for Yii2.",
     "keywords": ["yii", "extension", "widget", "chartjs"],
-    "homepage": "https://github.com/antipodos/yii2-chartjs-widget",
+    "homepage": "https://github.com/2amigos/yii2-chartjs-widget",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "antipodos\\chartjs\\": ""
+            "dosamigos\\chartjs\\": ""
         }
     }
 }
